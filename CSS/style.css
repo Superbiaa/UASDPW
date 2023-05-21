@@ -8,6 +8,20 @@ a {
   color: #1a1e21;
 }
 
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vh;
+  color: white;
+}
+
 .section-title h2 {
   text-shadow: 1px 1px 2px #4444;
 }

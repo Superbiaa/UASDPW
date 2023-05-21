@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Teknik Informatika Universitas Riau</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,18 +14,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
     <!-- End Bootstrap CSS -->
-
     <!--Custom Css-->
     <link rel="stylesheet" href="./CSS/style.css">
     <!--End Custom Css-->
 </head>
-
 <body>
-
    
     <!--Header Start-->
     <header>
@@ -70,26 +65,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                                <li><a class="dropdown-item" href="visimisi.html">Visi & Misi</a></li>
+                                <li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
+                                <li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
+                                <li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item"  href="jarkom.html">Lab Komputer dan Jaringan</a></li>
+                                <li><a class="dropdown-item"  href="rpl.html">Lab Rekayasa Perangkat Lunak</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Beranda
+                                Akademik
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="berita.html">Berita</a></li>
-                                <li><a class="dropdown-item" href="virtual.html">Virtual Tour</a></li>
-
+                                <li><a class="dropdown-item" href="kurikulum.html">Kurikulum</a></li>
+                                <li><a class="dropdown-item" href="jadwalkuliah.html">Jadwal Kuliah</a></li>
+                                <li><a class="dropdown-item" href="kalenderakademik.html">Kalender Akademik</a></li>
+                                <li><a class="dropdown-item" href="mikrotik.html">Mikrotik</a></li>
+                                
                             </ul>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profil</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Akademik</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -98,6 +99,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="foto.html">Foto</a></li>
                                 <li><a class="dropdown-item" href="video.html">Video</a></li>
+                                <li><a class="dropdown-item" href="virtual.html">Virtual Tour</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -138,7 +140,6 @@
                     src="img/banner-2.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-
                 </div>
             </div>
             <div class="carousel-item">
@@ -146,7 +147,6 @@
                     src="img/banner-3.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-
                 </div>
             </div>
         </div>
@@ -162,31 +162,25 @@
         </button>
     </div>
 </section>
-
     <main id="main">
-
         <!-- ======= About Section ======= -->
         <section id="about" class="about mt-5">
             <div class="container-fluid">
                 <h2 class="h1-responsive font-weight-bold text-center my-2">Profil Kampus</h2>
                 <!--Section description-->
                 <div class="row  pt-5 pb-5">
-
                     <div class="col-lg-5 align-items-stretch video-box"
                         style='background-image: url("https://i.ytimg.com/vi/ctDxbww6HsE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWUP08bZEQGIRgY4aqOy5_niwGCA");'>
                         <a href="https://www.youtube.com/watch?v=ctDxbww6HsE&pp=ygUXdGVrbmlrIGluZm9ybWF0aWthIHVucmk%3D"  class="venobox play-btn mb-4"
                             data-vbtype="video" data-autoplay="true"></a>
                     </div>
-
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
-
                         <div class="content">
                             <h3>Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). 
                             </h3>
                             <p>
                                 Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro.
                             </p>
-
                             <ul>
                                 <li><i class="bx bx-check-double"></i> Menyelenggarakan pendidikan Sarjana dalam bidang ilmu Teknik Informatika, berbasis penelitian dan pengembangan untuk menghasilkan lulusan unggul, profesional dan kompetitif berlandaskan ketaqwaan kepada Tuhan Yang Maha Esa.</li>
                                 <li><i class="bx bx-check-double"></i>Melaksanakan kegiatan penelitian dan pengembangan dalam bidang Teknik Informatika berbasis riset  dan Teknologi, Innovatif dan Kreatif baik di lingkungan Nasional maupun Internasional.</li>
@@ -196,14 +190,10 @@
                                 Program Studi Teknik Informatika memiliki 3 konsentrasi, yaitu Komputasi Cerdas dan Visualisasi (KCV), Rekayasa Perangkat Lunak (RPL), dan Komputasi Berbasis Jaringan (KBJ). Lulusan Program Studi Teknik Informatika mendapatkan gelar S.T. (Sarjana Teknik). Program Studi Teknik Informatika menghasilkan lulusanya yang unggul.
                             </p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </section><!-- End About Section -->
-
         <section>
             <div class="container course pb-5 pt-5">
                 <h2 class="h1-responsive font-weight-bold text-center my-4">Berita Terkini</h2>
@@ -220,11 +210,10 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Ani Mardhatillah, mahasiswa Teknik Informatika Juara 1 Lomba MTQ Kecamatan</h5>
-                                <a href="#!" class="btn btn-primary">Read More</a>
+                                <a href="berita.html" class="btn btn-primary">Read More</a>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4">
                         <div class="card box">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -240,7 +229,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4">
                         <div class="card box">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -261,7 +249,6 @@
                 </div>
             </div>
         </section>
-
         <section>
             <div class="container">
                 <h2 class="h1-responsive font-weight-bold text-center my-4">Kemitraan</h2>
@@ -270,32 +257,24 @@
                     <div class="col col-md-12 mb-4 mb-lg-0 ms-4">
                         <img src="img/logo-bps-1.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-
                         <img src="img/logo-cisco.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
                     <!-- </div> -->
-
                     <!-- <div class="col-lg-4 col-md-12 mb-4 mb-lg-0"> -->
                         <img src="img/logo-esri-1.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
                         <img src="img/logo-kemenkominfo.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
                     <!-- </div> -->
-
                     <!-- <div class="col-lg-4 mb-4 mb-lg-0"> -->
                         <img src="img/logo-mikrotik.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
                         <img src="img/logo-microsoft.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-
                         <img src="img/logo-oracle.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
                         <img src="img/logo-redhat-1.webp"
                             class="mitra shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-
 
                     </div>
                 </div>
@@ -303,24 +282,18 @@
             </div>
         </section>
 
-
         <section>
             <div class="container mb-5">
                 <!--Section: Contact v.2-->
                 <section class="mb-4">
-
                     <!--Section heading-->
                     <h2 class="h1-responsive font-weight-bold text-center my-4">Kontak </h2>
-
                     <div class="row">
-
                         <!--Grid column-->
                         <div class="col-md-6 mb-md-0 mb-5">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
                                 <!--Grid row-->
                                 <div class="row">
-
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
@@ -329,7 +302,6 @@
                                         </div>
                                     </div>
                                     <!--Grid column-->
-
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
@@ -338,10 +310,8 @@
                                         </div>
                                     </div>
                                     <!--Grid column-->
-
                                 </div>
                                 <!--Grid row-->
-
                                 <!--Grid row-->
                                 <div class="row">
                                     <div class="col-md-12">
@@ -352,25 +322,19 @@
                                     </div>
                                 </div>
                                 <!--Grid row-->
-
                                 <!--Grid row-->
                                 <div class="row">
-
                                     <!--Grid column-->
                                     <div class="col-md-12">
-
                                         <div class="md-form">
                                             <textarea type="text" id="message" name="message" rows="2"
                                                 class="form-control md-textarea"></textarea>
                                             <label for="message">Your message</label>
                                         </div>
-
                                     </div>
                                 </div>
                                 <!--Grid row-->
-
                             </form>
-
                             <div class="text-center text-md-left">
                                 <a class="btn btn-primary"
                                     onclick="document.getElementById('contact-form').submit();">Send</a>
@@ -378,26 +342,21 @@
                             <div class="status"></div>
                         </div>
                         <!--Grid column-->
-
                         <!--Grid column-->
                         <div class="col-md-6 text-center">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.678156485415!2d101.37429247459059!3d0.4802643637545264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a902b948f0bd%3A0xb04455715285d3aa!2sTeknik%20Elektro%20Universitas%20Riau!5e0!3m2!1sen!2sid!4v1684048369800!5m2!1sen!2sid" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <!--Grid column-->
-
                     </div>
-
                 </section>
                 <!--Section: Contact v.2-->
             </div>
         </section>
 
-
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-primary py-3 text-white">
           
             <!-- Section: Social media -->
-
             <!-- Section: Links  -->
             <section class="">
                 <div class="container text-center text-md-start mt-5">
@@ -411,11 +370,9 @@
                             </h6>
                         </div>
                         <!-- Grid column -->
-
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
-                            
                             <p>
                                 Gedung C lantai 2<br>
                                 Fakultas Teknik Universitas Riau<br>
@@ -426,7 +383,6 @@
                             </p>
                         </div>
                         <!-- Grid column -->
-
                         <!-- Grid column -->
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
@@ -447,16 +403,24 @@
                             </p>
                         </div>
                         <!-- Grid column -->
-
                         <!-- Grid column -->
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Akreditasi
+                                Useful links
                             </h6>
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <img src="img/akreditasi-ti-b.png" width="230">
-                            </h6>
+                            <p>
+                                <a href="news.html" class="text-reset">Berita</a>
+                            </p>
+                            <p>
+                                <a href="event.html" class="text-reset">Event</a>
+                            </p>
+                            <p>
+                                <a href="prestasi.html" class="text-reset">Prestasi Mahasiswa</a>
+                            </p>
+                            <p>
+                                <a href="poster.html" class="text-reset">Poster Mahasiswa</a>
+                            </p>
                             
                         </div>
                         <!-- Grid column -->
@@ -465,11 +429,10 @@
                 </div>
             </section>
             <!-- Section: Links  -->
-
             <!-- Copyright -->
-            <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">       
                 © 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">https://dnis.site/</a>
             </div>
             <!-- Copyright -->
         </footer>
@@ -478,7 +441,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
-
+    </main>
 </body>
-
 </html>
