@@ -22,6 +22,13 @@ a {
   color: white;
 }
 
+@media all and (min-width: 992px)
+{ 
+  .navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
 .section-title h2 {
   text-shadow: 1px 1px 2px #4444;
 }
